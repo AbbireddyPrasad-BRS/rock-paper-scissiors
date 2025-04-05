@@ -1,0 +1,112 @@
+body {
+    font-family: 'Bangers', cursive;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 35px;
+    margin-top: 20px;
+    color: #00ffea;
+    text-shadow: 0 0 5px #05776e88; /* softer glow */
+  }
+  
+  h2 {
+    color: #101104;
+    text-shadow: 0 0 3px #f7f7f7; /* even softer */
+  }
+  h3 {
+    color: #3d9ef3;
+    text-shadow: 0 0 3px #ff0000; /* even softer */
+  }
+  
+  .username {
+    margin: 20px 0;
+  }
+  
+  #user {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  #submit {
+    background-color: #0bf8038a;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #0b3a0b;
+    transition: transform 0.2s;
+  }
+  
+  #submit:hover {
+    background-color: #031f028a;
+    transform: scale(1.1);
+  }
+  
+  .buttons-article {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  button.choice {
+    height: 120px;
+    width: 120px;
+    margin: 0 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 15px #ffffffaa;
+    background-size: cover;
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+  
+  button.choice:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #00ffea;
+  }
+  
+  #rock {
+    background-image: url(./images/rock.png);
+  }
+  #paper {
+    background-image: url(./images/paper.png);
+  }
+  #scissors {
+    background-image: url(./images/scissors.png);
+  }
+  
+  .game-state {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 5px #078278;
+  }
+  
+  .result {
+    font-size: 32px;
+    font-weight: italic;
+    color: #ffea00;
+    text-shadow: 0 0 10px #464002;
+  }
+  
+  .scoreboard {
+    margin: 30px auto;
+    width: 205px;
+    padding: 5px;
+    background-color: #101820;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00ffea;
+  }
+  
