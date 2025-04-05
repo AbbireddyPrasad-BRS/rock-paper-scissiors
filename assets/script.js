@@ -17,7 +17,7 @@ function playGame(playerMove) {
       draw += 1;
     } else if (playerMove == "Rock") {
       if (cpuMove == "Paper") {
-        showResult("Cpu Wins");
+        showResult("System Wins");
         cpuScore += 1;
       } else {
         showResult("You Win");
@@ -28,12 +28,12 @@ function playGame(playerMove) {
         showResult("You Win");
         playerScore += 1;
       } else {
-        showResult("Cpu Wins");
+        showResult("System Wins");
         cpuScore += 1;
       }
     } else if (playerMove == "Scissors") {
       if (cpuMove == "Rock") {
-        showResult("Cpu Wins");
+        showResult("System Wins");
         cpuScore += 1;
       } else {
         showResult("You Win");
@@ -113,7 +113,7 @@ function showResult(result) {
 
 function endGame() {
     const resultDisplay = document.getElementById("results");
-    const winner = playerScore === 5 ? "🎉You Won the Game!" : "💻 CPU Won the Game!";
+    const winner = playerScore === 5 ? "🎉You Won the Game!" : "💻 System Won the Game!";
     resultDisplay.innerHTML = "<b>" + winner + "</b>";
   
     // Disable choice buttons
