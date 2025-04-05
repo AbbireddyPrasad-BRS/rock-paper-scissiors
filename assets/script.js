@@ -113,7 +113,7 @@ function showResult(result) {
 
 function endGame() {
     const resultDisplay = document.getElementById("results");
-    const winner = playerScore === 5 ? document.getElementById("user")+"🎉 Wins the Game!" : "💻 CPU Wins the Game!";
+    const winner = playerScore === 5 ? "🎉You Won the Game!" : "💻 CPU Won the Game!";
     resultDisplay.innerHTML = "<b>" + winner + "</b>";
   
     // Disable choice buttons
